@@ -33,24 +33,26 @@ h3 {
 
 /* NAVIGATION BAR */
 
-.navbar {
-    padding-bottom:0 0 4.5rem;
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
 }
 
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.nav-item {
+.nav-item{
     padding: 0 18px;
 }
-
-.nav-link {
-    font-size: 1.2rem;
-    /* font-family: "Montserrat-Light"; */
+.nav-link{
+    font-size: 1.5rem;
+font-family: "Montserrat-Light";
 }
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
 
 /* DOWNLOAD BUTTONS */
 
@@ -173,14 +175,7 @@ h3 {
 
 }
 
-/* FOOTER */
-#footer{
-     text-align: center;
-     padding: 7% 15%;
-     
-    
-  
-}
+
 .copyright{
     text-align: center;
     color: #8f8f8f;
@@ -188,9 +183,13 @@ h3 {
     margin:20px 80px; 
 
 }
-.social-icon
-{
+/* footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.foot-icon{
+    padding: 3%;
     
-    margin: 20px 10px;
- 
 }
